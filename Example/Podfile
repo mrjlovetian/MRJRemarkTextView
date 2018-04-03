@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MRJRemarkTextView_Example' do
+  pod 'MRJRemarkTextView', :path => '../'
+
+  target 'MRJRemarkTextView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
