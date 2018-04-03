@@ -1,0 +1,6 @@
+framework module Pods_MRJRemarkTextView_Tests {
+  umbrella header "Pods-MRJRemarkTextView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

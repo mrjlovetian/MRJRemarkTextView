@@ -371,10 +371,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MRJRemarkTextView_Example/Pods-MRJRemarkTextView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MRJRemarkTextView/MRJRemarkTextView.framework",
+				"${BUILT_PRODUCTS_DIR}/MRJUIColorAdditions/MRJUIColorAdditions.framework",
+				"${BUILT_PRODUCTS_DIR}/UIViewMRJFrame/UIViewMRJFrame.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MRJRemarkTextView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MRJUIColorAdditions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIViewMRJFrame.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
