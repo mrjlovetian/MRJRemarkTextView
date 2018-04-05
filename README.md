@@ -20,6 +20,21 @@ it, simply add the following line to your Podfile:
 pod 'MRJRemarkTextView'
 ```
 
+## use
+
+```
+MRJRemarkTextView *remarkTextView = [[MRJRemarkTextView alloc] initWithFrame:CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, 100)];
+    remarkTextView.limitTextColor = [UIColor purpleColor];
+    remarkTextView.limitForegroundColor = [UIColor orangeColor];
+    remarkTextView.limitBackColor = [UIColor blueColor];
+    remarkTextView.placeholder = @"请输入备注内容";
+    remarkTextView.textLimitNum = 100;
+    remarkTextView.rowMaxCount = 100;
+    [self.view addSubview:remarkTextView];
+```
+
+### action
+![](remark.png)
 ## Author
 
 mrjlovetian@gmail.com, mrjlovetian@gmail.com
@@ -27,3 +42,5 @@ mrjlovetian@gmail.com, mrjlovetian@gmail.com
 ## License
 
 MRJRemarkTextView is available under the MIT license. See the LICENSE file for more info.
+
+
