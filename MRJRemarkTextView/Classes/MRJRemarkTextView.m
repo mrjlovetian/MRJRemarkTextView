@@ -7,7 +7,6 @@
 //
 
 #import "MRJRemarkTextView.h"
-#import "UIColor+MRJAdditions.h"
 #import "UIView+MRJFrame.h"
 
 @implementation MRJRemarkTextView
@@ -24,7 +23,7 @@
     _textLimitNum = 0;
     self.delegate = self;
     self.font = [UIFont systemFontOfSize:16];
-    self.textColor = [UIColor colorWithHexString:@"666666"];
+    self.textColor = [self limitTextColor];
     if (self.rowMaxCount <= 1){
         self.returnKeyType = UIReturnKeyDone;
     } else {
@@ -34,14 +33,14 @@
     self.textContainerInset = UIEdgeInsetsMake(8.0f, 10, 22, 5);
     UILabel *placeHolderLabel = [[UILabel alloc]initWithFrame:CGRectMake(15, 10, self.width - 30, 16)];
     placeHolderLabel.textAlignment = NSTextAlignmentLeft;
-    placeHolderLabel.textColor = [UIColor colorWithHexString:@"999999"];
+    placeHolderLabel.textColor = [UIColor colorWithRed:153/255.0 green:153/255.0 blue:153/255.0 alpha:1.0];
     placeHolderLabel.font = [UIFont systemFontOfSize:16];
     placeHolderLabel.enabled = NO;
     placeHolderLabel.tag = 102;
     [self addSubview:placeHolderLabel];
 }
 
-- (void) hidenBordy{
+- (void) hidenBordy {
     [self resignFirstResponder];
 }
 
@@ -70,6 +69,7 @@
         textView.text = @"";
         return;
     }
+    
     UILabel *label = (UILabel *)[self viewWithTag:102];
     if (textView.text.length == 0) {
         label.text = self.placeholder;
@@ -167,15 +167,8 @@
     
     numberLabel.top = height - 22;
     [self scrollRectToVisible:numberLabel.frame animated:NO];
-    if(numberLabel){
-        if (self.text.length == 0) {
-            numberLabel.hidden = YES;
-        } else {
-            numberLabel.attributedText = [self getTextLimitString:self.textLimitNum];
-            numberLabel.hidden = NO;
-        }
-    }
-}
+    numberLabel.attributedText = [self getTextLimitString:self.textLimitNum];
+    numberLabel.hidden = NO;}
 
 
 - (void)setText:(NSString *)text {
@@ -211,13 +204,34 @@
     return str.length;
 }
 
-- (NSMutableAttributedString*)getTextLimitString:(NSUInteger)textLimit {
+- (UIColor *)limitBackColor {
+    if (_limitBackColor) {
+        return _limitBackColor;
+    }
+    return [UIColor grayColor];
+}
+
+- (UIColor *)limitForegroundColor {
+    if (_limitForegroundColor) {
+        return _limitForegroundColor;
+    }
+    return [UIColor redColor];
+}
+
+- (UIColor *)limitTextColor {
+    if (_limitTextColor) {
+        return _limitTextColor;
+    }
+    return [UIColor grayColor];
+}
+
+- (NSMutableAttributedString *)getTextLimitString:(NSUInteger)textLimit {
     NSString *textnumstr = [NSString stringWithFormat:@"%lu/",(unsigned long)[self textLength:self.text]];
     NSString *numstr = [NSString stringWithFormat:@"%lu",(unsigned long)textLimit];
     NSString *all = [NSString stringWithFormat:@"%@%@",textnumstr,numstr];
     NSMutableAttributedString *mstr = [[NSMutableAttributedString alloc]initWithString:all];
-    [mstr addAttribute:NSForegroundColorAttributeName value:[UIColor colorWithHexString:@"0091e8"] range:NSMakeRange(0, [textnumstr length])];
-    [mstr addAttribute:NSForegroundColorAttributeName value:[UIColor colorWithHexString:@"666666"] range:NSMakeRange([textnumstr length], [numstr length])];
+    [mstr addAttribute:NSForegroundColorAttributeName value:self.limitForegroundColor range:NSMakeRange(0, [textnumstr length])];
+    [mstr addAttribute:NSForegroundColorAttributeName value:self.limitBackColor range:NSMakeRange([textnumstr length], [numstr length])];
     return mstr;
 }
 

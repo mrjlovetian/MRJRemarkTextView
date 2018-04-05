@@ -7,131 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BC5E47CF0D00020BA22F4F703A9E8D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3740DF8E6E1ED99C3CCE9255A998D81 /* Foundation.framework */; };
-		155A22E9016BE5CB5CE9887F6A4AAA08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3740DF8E6E1ED99C3CCE9255A998D81 /* Foundation.framework */; };
-		18C7842BB38F664D73EF817572A9A630 /* MRJUIColorAdditions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2F9A1EBD63E6C02F01EAD5BCA62E53 /* MRJUIColorAdditions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27C28C03BE03C51D7838600D838A3539 /* Pods-MRJRemarkTextView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 146C08F801A335D33325232C5F747DC6 /* Pods-MRJRemarkTextView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A8E1733DE51D97E4DD98FA1072C0ADC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3740DF8E6E1ED99C3CCE9255A998D81 /* Foundation.framework */; };
+		0298479C9BB66B22818E49D889B3B50F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CBE01AD5AA207735C6D2E5DBF547CE /* Foundation.framework */; };
+		0D4284A9EFA3979768C4D12A4D833C0D /* UIViewMRJFrame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CE3D698A4D4F6EB17B38567BC974B11 /* UIViewMRJFrame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27B32CBCEE258E9A2D89ECEC842A9D83 /* Pods-MRJRemarkTextView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 146C08F801A335D33325232C5F747DC6 /* Pods-MRJRemarkTextView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3121730279426B7E330E3A3958E6BB8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CBE01AD5AA207735C6D2E5DBF547CE /* Foundation.framework */; };
 		4E0FDC2CA8A6C253B88D34319BB4FF09 /* Pods-MRJRemarkTextView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F7F48CCC343A20FC43AC127E80DF82F /* Pods-MRJRemarkTextView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5344F3007A503DEE6696332FFFBFAAD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3740DF8E6E1ED99C3CCE9255A998D81 /* Foundation.framework */; };
-		560B28E845C8191FEA4B61DC3ABB2101 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3740DF8E6E1ED99C3CCE9255A998D81 /* Foundation.framework */; };
-		5A556081684F50F72323C15B6E0C2B6D /* UIColor+MRJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 41EA5D2D6D19F2295DF99675D3B56F46 /* UIColor+MRJAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		664BDE6EFC7834E5EAE0950459FAFCFF /* MRJUIColorAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A872984BADD6F4134C1874D0F3082E /* MRJUIColorAdditions.framework */; };
+		505A9EB9EDD0AC52CED01D8D4A488E3C /* MRJRemarkTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D99C267B93E99FEA3E784AC3BE054F07 /* MRJRemarkTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		538687EDBED05FB101AD4816B6F727BB /* MRJRemarkTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674209CCBB4AC2D409884B74B70A354 /* MRJRemarkTextView-dummy.m */; };
+		560B28E845C8191FEA4B61DC3ABB2101 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CBE01AD5AA207735C6D2E5DBF547CE /* Foundation.framework */; };
+		614F492FA8C96EAE098EBC56F6CBBA87 /* MRJRemarkTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70592D99ED7FB50DB566156352727566 /* MRJRemarkTextView.m */; };
 		7226A8D2272D74F48C33F1353EA66033 /* Pods-MRJRemarkTextView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 755A091AB06173F4DC6766918FC95868 /* Pods-MRJRemarkTextView_Tests-dummy.m */; };
-		74C47C66AAE7B864BF86E8F31132B4E1 /* UIColor+MRJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9517C9648FF76628EE4E92CC1E6ED95E /* UIColor+MRJAdditions.m */; };
-		74CE000BECFED8DD51D2A81133A134E7 /* MRJUIColorAdditions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C75BF62CA454A46A36B46574EBA8B0D3 /* MRJUIColorAdditions-dummy.m */; };
-		85571B3E4842B10A1974CAD85C421438 /* UIView+MRJFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5AD0437D90205C95D703450E621F29 /* UIView+MRJFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AA9FB5E3966A903F07D25CD713E7957 /* UIView+MRJFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A558C2D1B6DC3C902CACFB120ED16A95 /* UIView+MRJFrame.m */; };
-		A4D7664CD95B2337424EB4B7D456884E /* UIViewMRJFrame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC96B9B36399BB10CD174059401E6FA6 /* UIViewMRJFrame-dummy.m */; };
-		CA0AF2DCA0936FDCD1FAA1CD9A102BF2 /* Pods-MRJRemarkTextView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3062BB5EEE51E8A2E30C57809E33FE43 /* Pods-MRJRemarkTextView_Example-dummy.m */; };
-		D50B9CFEDF365FE5C8C2F3CB46B0F08B /* MRJRemarkTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70592D99ED7FB50DB566156352727566 /* MRJRemarkTextView.m */; };
-		D9D219EEFF304EF6A9F6BF2263F4BEAE /* MRJRemarkTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E520D9A4A612E7492A2DC8161D41052 /* MRJRemarkTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFD6CE4EEB6194A9E53422986D3DCF6A /* UIViewMRJFrame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3743901D4A3900ED8B4125AB050D0C16 /* UIViewMRJFrame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2C1180A3CD229E80CD15FA65EC05200 /* UIViewMRJFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E302BA554D77A0B35C3A84691673158 /* UIViewMRJFrame.framework */; };
-		E9013AD80A424DA817DE709B8567AA38 /* MRJRemarkTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D99C267B93E99FEA3E784AC3BE054F07 /* MRJRemarkTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ECE0A7353DA2723779BD419379BA78D7 /* MRJRemarkTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674209CCBB4AC2D409884B74B70A354 /* MRJRemarkTextView-dummy.m */; };
+		7DDFAE3F98BE5C06DCF908E54BCE4358 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CBE01AD5AA207735C6D2E5DBF547CE /* Foundation.framework */; };
+		891A8FBF12A60F2574786BBA03A82A6A /* Pods-MRJRemarkTextView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3062BB5EEE51E8A2E30C57809E33FE43 /* Pods-MRJRemarkTextView_Example-dummy.m */; };
+		905BE80FD7C27EBC94A9A0F94C2B4F39 /* MRJRemarkTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E520D9A4A612E7492A2DC8161D41052 /* MRJRemarkTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90E3C8739F20DF5236DBBD12EF3709A1 /* UIView+MRJFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 7454B96F711C34DE3149BE8A096E007E /* UIView+MRJFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93404B7D4D0F511818AED1DAE8DD9639 /* UIViewMRJFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AFBC6C83214641483071D7E7BD7F95 /* UIViewMRJFrame.framework */; };
+		C5DA03B99F6BBD0632D28488E908A80A /* UIView+MRJFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD057623EFF101446C78EE04A1FFAD6 /* UIView+MRJFrame.m */; };
+		FF28177B0E0E729102C771763205991D /* UIViewMRJFrame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E16C687657A8ADF475A2CF8E82A0A3B2 /* UIViewMRJFrame-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1E2BDA25A09AB00C6BEA807BA7014100 /* PBXContainerItemProxy */ = {
+		049A540B28D7F137C2DB3957F78C9456 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 70B4E0C2B4830E918574BDB04079B915;
-			remoteInfo = MRJUIColorAdditions;
-		};
-		48A561221218AF06B123343E34023B19 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 70B4E0C2B4830E918574BDB04079B915;
-			remoteInfo = MRJUIColorAdditions;
-		};
-		84AA26C88AFFC07A432FB930C690C366 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BC2088A26D00111C8D9252C7E7F90A33;
-			remoteInfo = UIViewMRJFrame;
-		};
-		E003D62B1AFC95AA34C7DA0449ECC9F0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BC2088A26D00111C8D9252C7E7F90A33;
-			remoteInfo = UIViewMRJFrame;
-		};
-		ED1D94248F5D41B7F57C02A12E93D785 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1DE99007046BEC5E86DA41F3A085C708;
+			remoteGlobalIDString = 4920C0DD55B842561872F9B8E6269C3E;
 			remoteInfo = MRJRemarkTextView;
+		};
+		6AC53480799371B186A480A27143A8F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 960FF8386346749FE9039ABFD220D64B;
+			remoteInfo = UIViewMRJFrame;
+		};
+		A43A942A51B962AA7048F8E764C926D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 960FF8386346749FE9039ABFD220D64B;
+			remoteInfo = UIViewMRJFrame;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02F1F8F506F1075E508C53B4618AE7E5 /* Pods_MRJRemarkTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MRJRemarkTextView_Example.framework; path = "Pods-MRJRemarkTextView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0674209CCBB4AC2D409884B74B70A354 /* MRJRemarkTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRJRemarkTextView-dummy.m"; sourceTree = "<group>"; };
-		0E2F9A1EBD63E6C02F01EAD5BCA62E53 /* MRJUIColorAdditions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRJUIColorAdditions-umbrella.h"; sourceTree = "<group>"; };
-		0E302BA554D77A0B35C3A84691673158 /* UIViewMRJFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIViewMRJFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CE3D698A4D4F6EB17B38567BC974B11 /* UIViewMRJFrame-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewMRJFrame-umbrella.h"; sourceTree = "<group>"; };
 		0F7F48CCC343A20FC43AC127E80DF82F /* Pods-MRJRemarkTextView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MRJRemarkTextView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		10AFBC6C83214641483071D7E7BD7F95 /* UIViewMRJFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIViewMRJFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13DF9E34FAD2016839A08AE35BEC5D75 /* Pods-MRJRemarkTextView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MRJRemarkTextView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		146C08F801A335D33325232C5F747DC6 /* Pods-MRJRemarkTextView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MRJRemarkTextView_Example-umbrella.h"; sourceTree = "<group>"; };
-		1540E12994821B29EA82A2BA7C237E67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16B3E5B2B02061F8659632361DC8844A /* Pods-MRJRemarkTextView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MRJRemarkTextView_Example.modulemap"; sourceTree = "<group>"; };
-		20C55BCC6DF3B7B054AAC55E07D9E7A8 /* MRJUIColorAdditions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRJUIColorAdditions-prefix.pch"; sourceTree = "<group>"; };
-		28FDCBD2D61BF79018C5B48B4B4B8257 /* UIViewMRJFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIViewMRJFrame.framework; path = UIViewMRJFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AD6E47B55B63E51C55FB46EA65480EA /* UIViewMRJFrame.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIViewMRJFrame.xcconfig; sourceTree = "<group>"; };
 		2E520D9A4A612E7492A2DC8161D41052 /* MRJRemarkTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRJRemarkTextView.h; path = MRJRemarkTextView/Classes/MRJRemarkTextView.h; sourceTree = "<group>"; };
+		2F67C09471D9745B16720A70AFEA86A5 /* UIViewMRJFrame-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewMRJFrame-prefix.pch"; sourceTree = "<group>"; };
 		3062BB5EEE51E8A2E30C57809E33FE43 /* Pods-MRJRemarkTextView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MRJRemarkTextView_Example-dummy.m"; sourceTree = "<group>"; };
-		3743901D4A3900ED8B4125AB050D0C16 /* UIViewMRJFrame-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewMRJFrame-umbrella.h"; sourceTree = "<group>"; };
+		3283E263C496FDCB9995A46ED1551D7C /* Pods_MRJRemarkTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MRJRemarkTextView_Tests.framework; path = "Pods-MRJRemarkTextView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		390E787386FECB5E57127ADFD0D60551 /* Pods-MRJRemarkTextView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRJRemarkTextView_Tests-resources.sh"; sourceTree = "<group>"; };
-		41EA5D2D6D19F2295DF99675D3B56F46 /* UIColor+MRJAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MRJAdditions.h"; path = "MRJUIColorAdditions/Classes/UIColor+MRJAdditions.h"; sourceTree = "<group>"; };
-		496A15D5ADF7E1E50A01BD7607FB6ED6 /* MRJRemarkTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MRJRemarkTextView.framework; path = MRJRemarkTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAFF1FDA32F7CE3B78A3441641BE772 /* UIViewMRJFrame.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIViewMRJFrame.xcconfig; sourceTree = "<group>"; };
+		3CEF9BB39065F31687AF68FF10B4E3E5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A36FD4812569F6CCF25F7493E0F394C /* Pods-MRJRemarkTextView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRJRemarkTextView_Example-resources.sh"; sourceTree = "<group>"; };
-		504989023F55040C7740D2BD8826C4DA /* MRJUIColorAdditions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRJUIColorAdditions.xcconfig; sourceTree = "<group>"; };
-		54A872984BADD6F4134C1874D0F3082E /* MRJUIColorAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MRJUIColorAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C8C6DD9AB1F73A74CD6B2E22AA8CB6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		651B03394B65FF22C9109092CB59674C /* Pods_MRJRemarkTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MRJRemarkTextView_Example.framework; path = "Pods-MRJRemarkTextView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		598C7AAA73A44FC7FAE54A9CCE367CC7 /* UIViewMRJFrame.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UIViewMRJFrame.modulemap; sourceTree = "<group>"; };
 		6841C12779BDEF8B4B46C4BE1F57E8AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EDDD03F218A4344425198EFA3160F73 /* Pods-MRJRemarkTextView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRJRemarkTextView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		70592D99ED7FB50DB566156352727566 /* MRJRemarkTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRJRemarkTextView.m; path = MRJRemarkTextView/Classes/MRJRemarkTextView.m; sourceTree = "<group>"; };
 		70F8811AB00825D20BC64CBDAD891A38 /* Pods-MRJRemarkTextView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MRJRemarkTextView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7454B96F711C34DE3149BE8A096E007E /* UIView+MRJFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MRJFrame.h"; path = "UIViewMRJFrame/Classes/UIView+MRJFrame.h"; sourceTree = "<group>"; };
 		755A091AB06173F4DC6766918FC95868 /* Pods-MRJRemarkTextView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MRJRemarkTextView_Tests-dummy.m"; sourceTree = "<group>"; };
-		81D42E179B401D08643727CD908C889F /* UIViewMRJFrame-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewMRJFrame-prefix.pch"; sourceTree = "<group>"; };
 		86984225FDE7F21089E533FDD7586F0D /* Pods-MRJRemarkTextView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MRJRemarkTextView_Tests.modulemap"; sourceTree = "<group>"; };
+		8AD057623EFF101446C78EE04A1FFAD6 /* UIView+MRJFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MRJFrame.m"; path = "UIViewMRJFrame/Classes/UIView+MRJFrame.m"; sourceTree = "<group>"; };
 		914FD4591D4052B8DD6EB8E53385559B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		924A7EDFFFD2F4340475F182C0524A60 /* Pods-MRJRemarkTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRJRemarkTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9517C9648FF76628EE4E92CC1E6ED95E /* UIColor+MRJAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MRJAdditions.m"; path = "MRJUIColorAdditions/Classes/UIColor+MRJAdditions.m"; sourceTree = "<group>"; };
 		95A829C645F114D83650B54A8F7A2B57 /* Pods-MRJRemarkTextView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MRJRemarkTextView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9872DE1F960C2E3898CAFF7E2376A5B2 /* MRJRemarkTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MRJRemarkTextView.modulemap; sourceTree = "<group>"; };
 		9C5F8FF91772BEE75CDBD2243013E8D7 /* Pods-MRJRemarkTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRJRemarkTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A38871CAF380C0CCACC7D5F3A6237467 /* Pods_MRJRemarkTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MRJRemarkTextView_Tests.framework; path = "Pods-MRJRemarkTextView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A558C2D1B6DC3C902CACFB120ED16A95 /* UIView+MRJFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MRJFrame.m"; path = "UIViewMRJFrame/Classes/UIView+MRJFrame.m"; sourceTree = "<group>"; };
+		A4CBE01AD5AA207735C6D2E5DBF547CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A9DF6BBD82DFB020AA38C94018AE7CC9 /* Pods-MRJRemarkTextView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRJRemarkTextView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		AA371DBF88F7E33CEA286059DDDFB21C /* Pods-MRJRemarkTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRJRemarkTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AF4CB5B4337EC52C2ADECEEEA88BC5C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF5DFBEE1D45EA706FD29D6D1722BA8 /* MRJRemarkTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MRJRemarkTextView.framework; path = MRJRemarkTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1AACAE756E570B6AE4AA50867F82B53 /* Pods-MRJRemarkTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRJRemarkTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B776C2F9631064B5DD36E6B086C19DDB /* MRJRemarkTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRJRemarkTextView-prefix.pch"; sourceTree = "<group>"; };
-		BC7A32D2EBC1B32D785A74EA6E523F08 /* UIViewMRJFrame.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UIViewMRJFrame.modulemap; sourceTree = "<group>"; };
 		C16D32AF749921B4BAF9EC3CD5F3D6DF /* Pods-MRJRemarkTextView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MRJRemarkTextView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C75BF62CA454A46A36B46574EBA8B0D3 /* MRJUIColorAdditions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRJUIColorAdditions-dummy.m"; sourceTree = "<group>"; };
-		CC9F2C85B621C5AFB71313041B027CBD /* MRJUIColorAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MRJUIColorAdditions.framework; path = MRJUIColorAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD25D666390037E934633AE21D2F0469 /* MRJUIColorAdditions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MRJUIColorAdditions.modulemap; sourceTree = "<group>"; };
-		D3740DF8E6E1ED99C3CCE9255A998D81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D99C267B93E99FEA3E784AC3BE054F07 /* MRJRemarkTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRJRemarkTextView-umbrella.h"; sourceTree = "<group>"; };
-		DE5AD0437D90205C95D703450E621F29 /* UIView+MRJFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MRJFrame.h"; path = "UIViewMRJFrame/Classes/UIView+MRJFrame.h"; sourceTree = "<group>"; };
-		EC96B9B36399BB10CD174059401E6FA6 /* UIViewMRJFrame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewMRJFrame-dummy.m"; sourceTree = "<group>"; };
+		E0B7025739316A6A10874965C4611DD3 /* UIViewMRJFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIViewMRJFrame.framework; path = UIViewMRJFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16C687657A8ADF475A2CF8E82A0A3B2 /* UIViewMRJFrame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewMRJFrame-dummy.m"; sourceTree = "<group>"; };
 		F93AAC4164156E3865C2D4B652357A66 /* MRJRemarkTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRJRemarkTextView.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1CC9F409E4BA1F4D1CE4DBB1EA21F643 /* Frameworks */ = {
+		1897C1A045594F53020683846351E5B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BC5E47CF0D00020BA22F4F703A9E8D0 /* Foundation.framework in Frameworks */,
+				3121730279426B7E330E3A3958E6BB8A /* Foundation.framework in Frameworks */,
+				93404B7D4D0F511818AED1DAE8DD9639 /* UIViewMRJFrame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,44 +114,57 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50136F5CF1727853643147B59B1F22DA /* Frameworks */ = {
+		75197ECAB1EAFB5F8F5348531AF14695 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A8E1733DE51D97E4DD98FA1072C0ADC /* Foundation.framework in Frameworks */,
-				664BDE6EFC7834E5EAE0950459FAFCFF /* MRJUIColorAdditions.framework in Frameworks */,
-				E2C1180A3CD229E80CD15FA65EC05200 /* UIViewMRJFrame.framework in Frameworks */,
+				7DDFAE3F98BE5C06DCF908E54BCE4358 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		617879FC877944170ECA4F4EE11035AF /* Frameworks */ = {
+		E0BE0B73B396A528C47AB85C74CF9A51 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				155A22E9016BE5CB5CE9887F6A4AAA08 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A700FF6E19CF1C377DABF324093C78FF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5344F3007A503DEE6696332FFFBFAAD7 /* Foundation.framework in Frameworks */,
+				0298479C9BB66B22818E49D889B3B50F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		083F9CDDCE71260B726E522281810964 /* UIViewMRJFrame */ = {
+		041568891988D7F98717446351FA0DA0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DE5AD0437D90205C95D703450E621F29 /* UIView+MRJFrame.h */,
-				A558C2D1B6DC3C902CACFB120ED16A95 /* UIView+MRJFrame.m */,
-				F4691D6DBEF2618C0A993A674769055F /* Support Files */,
+				3CEF9BB39065F31687AF68FF10B4E3E5 /* Info.plist */,
+				598C7AAA73A44FC7FAE54A9CCE367CC7 /* UIViewMRJFrame.modulemap */,
+				3CAFF1FDA32F7CE3B78A3441641BE772 /* UIViewMRJFrame.xcconfig */,
+				E16C687657A8ADF475A2CF8E82A0A3B2 /* UIViewMRJFrame-dummy.m */,
+				2F67C09471D9745B16720A70AFEA86A5 /* UIViewMRJFrame-prefix.pch */,
+				0CE3D698A4D4F6EB17B38567BC974B11 /* UIViewMRJFrame-umbrella.h */,
 			);
-			name = UIViewMRJFrame;
-			path = UIViewMRJFrame;
+			name = "Support Files";
+			path = "../Target Support Files/UIViewMRJFrame";
+			sourceTree = "<group>";
+		};
+		189CD73FF01D1D0B32E3D1315C19624F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACF5DFBEE1D45EA706FD29D6D1722BA8 /* MRJRemarkTextView.framework */,
+				02F1F8F506F1075E508C53B4618AE7E5 /* Pods_MRJRemarkTextView_Example.framework */,
+				3283E263C496FDCB9995A46ED1551D7C /* Pods_MRJRemarkTextView_Tests.framework */,
+				E0B7025739316A6A10874965C4611DD3 /* UIViewMRJFrame.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E2D37D47A21EFBE1A4F5F9521CD55C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10AFBC6C83214641483071D7E7BD7F95 /* UIViewMRJFrame.framework */,
+				7019999B9E7765234105C5AEE42435B2 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		35C17F51B59223412506A4890F3CC6F6 /* Development Pods */ = {
@@ -189,15 +173,6 @@
 				55AAE8BC1CF604DAB503C369FB5A47FD /* MRJRemarkTextView */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		51672F3C6C78FFCBAC79DBD18BFAE7F1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				942C54845DEFA5C1EB177E871A11C16D /* MRJUIColorAdditions */,
-				083F9CDDCE71260B726E522281810964 /* UIViewMRJFrame */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		55AAE8BC1CF604DAB503C369FB5A47FD /* MRJRemarkTextView */ = {
@@ -247,6 +222,14 @@
 			path = "Target Support Files/Pods-MRJRemarkTextView_Example";
 			sourceTree = "<group>";
 		};
+		7019999B9E7765234105C5AEE42435B2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A4CBE01AD5AA207735C6D2E5DBF547CE /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		7471776120CA11941E579526562199E2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -266,66 +249,19 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				35C17F51B59223412506A4890F3CC6F6 /* Development Pods */,
-				AAE9BF828B3C898AF8B80434ECE7028E /* Frameworks */,
-				51672F3C6C78FFCBAC79DBD18BFAE7F1 /* Pods */,
-				8D608683B7268CC4EB2E6D6BD85528F6 /* Products */,
+				1E2D37D47A21EFBE1A4F5F9521CD55C2 /* Frameworks */,
+				910F2E5C6D4218A605BEF947EB92D190 /* Pods */,
+				189CD73FF01D1D0B32E3D1315C19624F /* Products */,
 				D5A0D982B94C4C35BD202967DF2123EA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		86A377B3AA21076C672409F2D7E1571A /* iOS */ = {
+		910F2E5C6D4218A605BEF947EB92D190 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D3740DF8E6E1ED99C3CCE9255A998D81 /* Foundation.framework */,
+				E356D78F372D60ED8DAA1AF68C77A158 /* UIViewMRJFrame */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		8D608683B7268CC4EB2E6D6BD85528F6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				496A15D5ADF7E1E50A01BD7607FB6ED6 /* MRJRemarkTextView.framework */,
-				CC9F2C85B621C5AFB71313041B027CBD /* MRJUIColorAdditions.framework */,
-				651B03394B65FF22C9109092CB59674C /* Pods_MRJRemarkTextView_Example.framework */,
-				A38871CAF380C0CCACC7D5F3A6237467 /* Pods_MRJRemarkTextView_Tests.framework */,
-				28FDCBD2D61BF79018C5B48B4B4B8257 /* UIViewMRJFrame.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		942C54845DEFA5C1EB177E871A11C16D /* MRJUIColorAdditions */ = {
-			isa = PBXGroup;
-			children = (
-				41EA5D2D6D19F2295DF99675D3B56F46 /* UIColor+MRJAdditions.h */,
-				9517C9648FF76628EE4E92CC1E6ED95E /* UIColor+MRJAdditions.m */,
-				CDC7F8FB96F80B2EC385AAD08A199E69 /* Support Files */,
-			);
-			name = MRJUIColorAdditions;
-			path = MRJUIColorAdditions;
-			sourceTree = "<group>";
-		};
-		AAE9BF828B3C898AF8B80434ECE7028E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				54A872984BADD6F4134C1874D0F3082E /* MRJUIColorAdditions.framework */,
-				0E302BA554D77A0B35C3A84691673158 /* UIViewMRJFrame.framework */,
-				86A377B3AA21076C672409F2D7E1571A /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CDC7F8FB96F80B2EC385AAD08A199E69 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AF4CB5B4337EC52C2ADECEEEA88BC5C9 /* Info.plist */,
-				CD25D666390037E934633AE21D2F0469 /* MRJUIColorAdditions.modulemap */,
-				504989023F55040C7740D2BD8826C4DA /* MRJUIColorAdditions.xcconfig */,
-				C75BF62CA454A46A36B46574EBA8B0D3 /* MRJUIColorAdditions-dummy.m */,
-				20C55BCC6DF3B7B054AAC55E07D9E7A8 /* MRJUIColorAdditions-prefix.pch */,
-				0E2F9A1EBD63E6C02F01EAD5BCA62E53 /* MRJUIColorAdditions-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MRJUIColorAdditions";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D5A0D982B94C4C35BD202967DF2123EA /* Targets Support Files */ = {
@@ -337,46 +273,43 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F4691D6DBEF2618C0A993A674769055F /* Support Files */ = {
+		E356D78F372D60ED8DAA1AF68C77A158 /* UIViewMRJFrame */ = {
 			isa = PBXGroup;
 			children = (
-				1540E12994821B29EA82A2BA7C237E67 /* Info.plist */,
-				BC7A32D2EBC1B32D785A74EA6E523F08 /* UIViewMRJFrame.modulemap */,
-				2AD6E47B55B63E51C55FB46EA65480EA /* UIViewMRJFrame.xcconfig */,
-				EC96B9B36399BB10CD174059401E6FA6 /* UIViewMRJFrame-dummy.m */,
-				81D42E179B401D08643727CD908C889F /* UIViewMRJFrame-prefix.pch */,
-				3743901D4A3900ED8B4125AB050D0C16 /* UIViewMRJFrame-umbrella.h */,
+				7454B96F711C34DE3149BE8A096E007E /* UIView+MRJFrame.h */,
+				8AD057623EFF101446C78EE04A1FFAD6 /* UIView+MRJFrame.m */,
+				041568891988D7F98717446351FA0DA0 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/UIViewMRJFrame";
+			name = UIViewMRJFrame;
+			path = UIViewMRJFrame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1C079E1A6EDCCB80EF9D1F8A04061FDB /* Headers */ = {
+		20BCED6AFBAFF334C9F0C1952F9C40CE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9013AD80A424DA817DE709B8567AA38 /* MRJRemarkTextView-umbrella.h in Headers */,
-				D9D219EEFF304EF6A9F6BF2263F4BEAE /* MRJRemarkTextView.h in Headers */,
+				27B32CBCEE258E9A2D89ECEC842A9D83 /* Pods-MRJRemarkTextView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E19D6F3DE9874C9C4B626B4246D042A /* Headers */ = {
+		3C41AD8CC28711D7E78BC1C1C23853D2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85571B3E4842B10A1974CAD85C421438 /* UIView+MRJFrame.h in Headers */,
-				DFD6CE4EEB6194A9E53422986D3DCF6A /* UIViewMRJFrame-umbrella.h in Headers */,
+				505A9EB9EDD0AC52CED01D8D4A488E3C /* MRJRemarkTextView-umbrella.h in Headers */,
+				905BE80FD7C27EBC94A9A0F94C2B4F39 /* MRJRemarkTextView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4103E435485A340593404EECA1FF0F05 /* Headers */ = {
+		6884B957EE54C32EB8FAEB41F72FA6E2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27C28C03BE03C51D7838600D838A3539 /* Pods-MRJRemarkTextView_Example-umbrella.h in Headers */,
+				90E3C8739F20DF5236DBBD12EF3709A1 /* UIView+MRJFrame.h in Headers */,
+				0D4284A9EFA3979768C4D12A4D833C0D /* UIViewMRJFrame-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,15 +318,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E0FDC2CA8A6C253B88D34319BB4FF09 /* Pods-MRJRemarkTextView_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F6C317A18D8E5883A81E67D69C6104D2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18C7842BB38F664D73EF817572A9A630 /* MRJUIColorAdditions-umbrella.h in Headers */,
-				5A556081684F50F72323C15B6E0C2B6D /* UIColor+MRJAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,72 +338,53 @@
 			);
 			name = "Pods-MRJRemarkTextView_Tests";
 			productName = "Pods-MRJRemarkTextView_Tests";
-			productReference = A38871CAF380C0CCACC7D5F3A6237467 /* Pods_MRJRemarkTextView_Tests.framework */;
+			productReference = 3283E263C496FDCB9995A46ED1551D7C /* Pods_MRJRemarkTextView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1DE99007046BEC5E86DA41F3A085C708 /* MRJRemarkTextView */ = {
+		2C7FCF49A1AF6E1FD32518BAAF31C42B /* Pods-MRJRemarkTextView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DECFF7E0E04C3A5C57E08656A5E60CFB /* Build configuration list for PBXNativeTarget "MRJRemarkTextView" */;
+			buildConfigurationList = 79358EEC7548FDC06C541865DB681EE2 /* Build configuration list for PBXNativeTarget "Pods-MRJRemarkTextView_Example" */;
 			buildPhases = (
-				EF693C28569E8F34E6D9C3B7BC89D01E /* Sources */,
-				50136F5CF1727853643147B59B1F22DA /* Frameworks */,
-				1C079E1A6EDCCB80EF9D1F8A04061FDB /* Headers */,
+				B6534E51EEFC1A52D66BCE5A7095D352 /* Sources */,
+				75197ECAB1EAFB5F8F5348531AF14695 /* Frameworks */,
+				20BCED6AFBAFF334C9F0C1952F9C40CE /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				428F55E7D43EA75ADAAE5A2D88FF48E5 /* PBXTargetDependency */,
-				14005134C8E4FA23693218B74563FBB8 /* PBXTargetDependency */,
-			);
-			name = MRJRemarkTextView;
-			productName = MRJRemarkTextView;
-			productReference = 496A15D5ADF7E1E50A01BD7607FB6ED6 /* MRJRemarkTextView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		4FB97533801B721C4DB5A4B1F6085D0B /* Pods-MRJRemarkTextView_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CC033F5C3938ACD621A429DB5BD5D132 /* Build configuration list for PBXNativeTarget "Pods-MRJRemarkTextView_Example" */;
-			buildPhases = (
-				3EA1F4A56B69462D222DEEB01CDA7813 /* Sources */,
-				A700FF6E19CF1C377DABF324093C78FF /* Frameworks */,
-				4103E435485A340593404EECA1FF0F05 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0AA343E7B93DD162B72A48CB2B0C236D /* PBXTargetDependency */,
-				78B70D6988BF2D2720A112BDBEF3C56E /* PBXTargetDependency */,
-				BC349D156C28AD55BAE0EF37AF3CDF70 /* PBXTargetDependency */,
+				F2A0524525C7C7F91CD1883FF913E363 /* PBXTargetDependency */,
+				16E395D580E4E04840A53EF10E23FE7E /* PBXTargetDependency */,
 			);
 			name = "Pods-MRJRemarkTextView_Example";
 			productName = "Pods-MRJRemarkTextView_Example";
-			productReference = 651B03394B65FF22C9109092CB59674C /* Pods_MRJRemarkTextView_Example.framework */;
+			productReference = 02F1F8F506F1075E508C53B4618AE7E5 /* Pods_MRJRemarkTextView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		70B4E0C2B4830E918574BDB04079B915 /* MRJUIColorAdditions */ = {
+		4920C0DD55B842561872F9B8E6269C3E /* MRJRemarkTextView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B392C368403B6344C94A3CB2A5C8559F /* Build configuration list for PBXNativeTarget "MRJUIColorAdditions" */;
+			buildConfigurationList = DD6C4E7737B3FF6F3F61822D8CCB9137 /* Build configuration list for PBXNativeTarget "MRJRemarkTextView" */;
 			buildPhases = (
-				B0FB7FA513FEF68FD71F588C51E5BE1A /* Sources */,
-				617879FC877944170ECA4F4EE11035AF /* Frameworks */,
-				F6C317A18D8E5883A81E67D69C6104D2 /* Headers */,
+				2935062CFC47DEB3802E6C44EA44B45E /* Sources */,
+				1897C1A045594F53020683846351E5B7 /* Frameworks */,
+				3C41AD8CC28711D7E78BC1C1C23853D2 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F2CB1447F14F52DB9D701A1006647CE7 /* PBXTargetDependency */,
 			);
-			name = MRJUIColorAdditions;
-			productName = MRJUIColorAdditions;
-			productReference = CC9F2C85B621C5AFB71313041B027CBD /* MRJUIColorAdditions.framework */;
+			name = MRJRemarkTextView;
+			productName = MRJRemarkTextView;
+			productReference = ACF5DFBEE1D45EA706FD29D6D1722BA8 /* MRJRemarkTextView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BC2088A26D00111C8D9252C7E7F90A33 /* UIViewMRJFrame */ = {
+		960FF8386346749FE9039ABFD220D64B /* UIViewMRJFrame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AEF9A18F902C5097F4E670DE2D5C9025 /* Build configuration list for PBXNativeTarget "UIViewMRJFrame" */;
+			buildConfigurationList = 970A8D777A6929CABCD7E078BBF62D34 /* Build configuration list for PBXNativeTarget "UIViewMRJFrame" */;
 			buildPhases = (
-				861E1B84738F8721A447B0E3A2ADC5EE /* Sources */,
-				1CC9F409E4BA1F4D1CE4DBB1EA21F643 /* Frameworks */,
-				3E19D6F3DE9874C9C4B626B4246D042A /* Headers */,
+				410DBA834F010D1FD5D2163DF81FE020 /* Sources */,
+				E0BE0B73B396A528C47AB85C74CF9A51 /* Frameworks */,
+				6884B957EE54C32EB8FAEB41F72FA6E2 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -487,7 +392,7 @@
 			);
 			name = UIViewMRJFrame;
 			productName = UIViewMRJFrame;
-			productReference = 28FDCBD2D61BF79018C5B48B4B4B8257 /* UIViewMRJFrame.framework */;
+			productReference = E0B7025739316A6A10874965C4611DD3 /* UIViewMRJFrame.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -507,43 +412,42 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 8D608683B7268CC4EB2E6D6BD85528F6 /* Products */;
+			productRefGroup = 189CD73FF01D1D0B32E3D1315C19624F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1DE99007046BEC5E86DA41F3A085C708 /* MRJRemarkTextView */,
-				70B4E0C2B4830E918574BDB04079B915 /* MRJUIColorAdditions */,
-				4FB97533801B721C4DB5A4B1F6085D0B /* Pods-MRJRemarkTextView_Example */,
+				4920C0DD55B842561872F9B8E6269C3E /* MRJRemarkTextView */,
+				2C7FCF49A1AF6E1FD32518BAAF31C42B /* Pods-MRJRemarkTextView_Example */,
 				14F7A9FC25DAA235B4F49D20DAC3397D /* Pods-MRJRemarkTextView_Tests */,
-				BC2088A26D00111C8D9252C7E7F90A33 /* UIViewMRJFrame */,
+				960FF8386346749FE9039ABFD220D64B /* UIViewMRJFrame */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3EA1F4A56B69462D222DEEB01CDA7813 /* Sources */ = {
+		2935062CFC47DEB3802E6C44EA44B45E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA0AF2DCA0936FDCD1FAA1CD9A102BF2 /* Pods-MRJRemarkTextView_Example-dummy.m in Sources */,
+				538687EDBED05FB101AD4816B6F727BB /* MRJRemarkTextView-dummy.m in Sources */,
+				614F492FA8C96EAE098EBC56F6CBBA87 /* MRJRemarkTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		861E1B84738F8721A447B0E3A2ADC5EE /* Sources */ = {
+		410DBA834F010D1FD5D2163DF81FE020 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AA9FB5E3966A903F07D25CD713E7957 /* UIView+MRJFrame.m in Sources */,
-				A4D7664CD95B2337424EB4B7D456884E /* UIViewMRJFrame-dummy.m in Sources */,
+				C5DA03B99F6BBD0632D28488E908A80A /* UIView+MRJFrame.m in Sources */,
+				FF28177B0E0E729102C771763205991D /* UIViewMRJFrame-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0FB7FA513FEF68FD71F588C51E5BE1A /* Sources */ = {
+		B6534E51EEFC1A52D66BCE5A7095D352 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74CE000BECFED8DD51D2A81133A134E7 /* MRJUIColorAdditions-dummy.m in Sources */,
-				74C47C66AAE7B864BF86E8F31132B4E1 /* UIColor+MRJAdditions.m in Sources */,
+				891A8FBF12A60F2574786BBA03A82A6A /* Pods-MRJRemarkTextView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,51 +459,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF693C28569E8F34E6D9C3B7BC89D01E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ECE0A7353DA2723779BD419379BA78D7 /* MRJRemarkTextView-dummy.m in Sources */,
-				D50B9CFEDF365FE5C8C2F3CB46B0F08B /* MRJRemarkTextView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0AA343E7B93DD162B72A48CB2B0C236D /* PBXTargetDependency */ = {
+		16E395D580E4E04840A53EF10E23FE7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIViewMRJFrame;
+			target = 960FF8386346749FE9039ABFD220D64B /* UIViewMRJFrame */;
+			targetProxy = 6AC53480799371B186A480A27143A8F2 /* PBXContainerItemProxy */;
+		};
+		F2A0524525C7C7F91CD1883FF913E363 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MRJRemarkTextView;
-			target = 1DE99007046BEC5E86DA41F3A085C708 /* MRJRemarkTextView */;
-			targetProxy = ED1D94248F5D41B7F57C02A12E93D785 /* PBXContainerItemProxy */;
+			target = 4920C0DD55B842561872F9B8E6269C3E /* MRJRemarkTextView */;
+			targetProxy = 049A540B28D7F137C2DB3957F78C9456 /* PBXContainerItemProxy */;
 		};
-		14005134C8E4FA23693218B74563FBB8 /* PBXTargetDependency */ = {
+		F2CB1447F14F52DB9D701A1006647CE7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UIViewMRJFrame;
-			target = BC2088A26D00111C8D9252C7E7F90A33 /* UIViewMRJFrame */;
-			targetProxy = 84AA26C88AFFC07A432FB930C690C366 /* PBXContainerItemProxy */;
-		};
-		428F55E7D43EA75ADAAE5A2D88FF48E5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MRJUIColorAdditions;
-			target = 70B4E0C2B4830E918574BDB04079B915 /* MRJUIColorAdditions */;
-			targetProxy = 1E2BDA25A09AB00C6BEA807BA7014100 /* PBXContainerItemProxy */;
-		};
-		78B70D6988BF2D2720A112BDBEF3C56E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MRJUIColorAdditions;
-			target = 70B4E0C2B4830E918574BDB04079B915 /* MRJUIColorAdditions */;
-			targetProxy = 48A561221218AF06B123343E34023B19 /* PBXContainerItemProxy */;
-		};
-		BC349D156C28AD55BAE0EF37AF3CDF70 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UIViewMRJFrame;
-			target = BC2088A26D00111C8D9252C7E7F90A33 /* UIViewMRJFrame */;
-			targetProxy = E003D62B1AFC95AA34C7DA0449ECC9F0 /* PBXContainerItemProxy */;
+			target = 960FF8386346749FE9039ABFD220D64B /* UIViewMRJFrame */;
+			targetProxy = A43A942A51B962AA7048F8E764C926D1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		068756D0E7E648802F85407C61F62F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F93AAC4164156E3865C2D4B652357A66 /* MRJRemarkTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MRJRemarkTextView/MRJRemarkTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MRJRemarkTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MRJRemarkTextView/MRJRemarkTextView.modulemap";
+				PRODUCT_NAME = MRJRemarkTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		16ACD8453B405F4A2927CFE392EBA31E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AA371DBF88F7E33CEA286059DDDFB21C /* Pods-MRJRemarkTextView_Tests.debug.xcconfig */;
@@ -632,9 +545,9 @@
 			};
 			name = Debug;
 		};
-		19E6DC89628FE4550E0919317A4EF14F /* Release */ = {
+		1FCAEB4B9268976F29474F06F3AB0B4D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 504989023F55040C7740D2BD8826C4DA /* MRJUIColorAdditions.xcconfig */;
+			baseConfigurationReference = F93AAC4164156E3865C2D4B652357A66 /* MRJRemarkTextView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -645,22 +558,21 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MRJUIColorAdditions/MRJUIColorAdditions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MRJUIColorAdditions/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MRJRemarkTextView/MRJRemarkTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MRJRemarkTextView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MRJUIColorAdditions/MRJUIColorAdditions.modulemap";
-				PRODUCT_NAME = MRJUIColorAdditions;
+				MODULEMAP_FILE = "Target Support Files/MRJRemarkTextView/MRJRemarkTextView.modulemap";
+				PRODUCT_NAME = MRJRemarkTextView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -722,9 +634,9 @@
 			};
 			name = Debug;
 		};
-		45DFD4D2CDED0445D200B8EFD9B1A339 /* Debug */ = {
+		49B0E36B2D31454065C7F96035775AEC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 504989023F55040C7740D2BD8826C4DA /* MRJUIColorAdditions.xcconfig */;
+			baseConfigurationReference = 3CAFF1FDA32F7CE3B78A3441641BE772 /* UIViewMRJFrame.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -735,21 +647,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MRJUIColorAdditions/MRJUIColorAdditions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MRJUIColorAdditions/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/UIViewMRJFrame/UIViewMRJFrame-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIViewMRJFrame/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MRJUIColorAdditions/MRJUIColorAdditions.modulemap";
-				PRODUCT_NAME = MRJUIColorAdditions;
+				MODULEMAP_FILE = "Target Support Files/UIViewMRJFrame/UIViewMRJFrame.modulemap";
+				PRODUCT_NAME = UIViewMRJFrame;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		4A7F9DE5DAA83F1E65BFD187190743FB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -783,68 +696,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		6A27E25E3C811E9A56568DFD8E7C9443 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1AACAE756E570B6AE4AA50867F82B53 /* Pods-MRJRemarkTextView_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MRJRemarkTextView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MRJRemarkTextView_Example/Pods-MRJRemarkTextView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MRJRemarkTextView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		728C445D9116EC4DE9AD55016DEACE3F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AD6E47B55B63E51C55FB46EA65480EA /* UIViewMRJFrame.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UIViewMRJFrame/UIViewMRJFrame-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIViewMRJFrame/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UIViewMRJFrame/UIViewMRJFrame.modulemap";
-				PRODUCT_NAME = UIViewMRJFrame;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -901,7 +752,40 @@
 			};
 			name = Release;
 		};
-		81DF5C100F712F5CBE68F18217D4B91F /* Debug */ = {
+		800079CEA38D02294D40AA57284A02B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1AACAE756E570B6AE4AA50867F82B53 /* Pods-MRJRemarkTextView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MRJRemarkTextView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MRJRemarkTextView_Example/Pods-MRJRemarkTextView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MRJRemarkTextView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED7A5E011529999312A0FA5521CDE971 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9C5F8FF91772BEE75CDBD2243013E8D7 /* Pods-MRJRemarkTextView_Example.debug.xcconfig */;
 			buildSettings = {
@@ -933,9 +817,9 @@
 			};
 			name = Debug;
 		};
-		83387BA010E8F33643E120A2624E9AB2 /* Release */ = {
+		F494A44A72AC06CB2C008F6EC3287168 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AD6E47B55B63E51C55FB46EA65480EA /* UIViewMRJFrame.xcconfig */;
+			baseConfigurationReference = 3CAFF1FDA32F7CE3B78A3441641BE772 /* UIViewMRJFrame.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -957,70 +841,10 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AD71BD63607F6F456B2991D64C54A49D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F93AAC4164156E3865C2D4B652357A66 /* MRJRemarkTextView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MRJRemarkTextView/MRJRemarkTextView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MRJRemarkTextView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MRJRemarkTextView/MRJRemarkTextView.modulemap";
-				PRODUCT_NAME = MRJRemarkTextView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		FED60AD7FD5303CFE0B32FBFAF2EF3BA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F93AAC4164156E3865C2D4B652357A66 /* MRJRemarkTextView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MRJRemarkTextView/MRJRemarkTextView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MRJRemarkTextView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MRJRemarkTextView/MRJRemarkTextView.modulemap";
-				PRODUCT_NAME = MRJRemarkTextView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1034,38 +858,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AEF9A18F902C5097F4E670DE2D5C9025 /* Build configuration list for PBXNativeTarget "UIViewMRJFrame" */ = {
+		79358EEC7548FDC06C541865DB681EE2 /* Build configuration list for PBXNativeTarget "Pods-MRJRemarkTextView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				728C445D9116EC4DE9AD55016DEACE3F /* Debug */,
-				83387BA010E8F33643E120A2624E9AB2 /* Release */,
+				ED7A5E011529999312A0FA5521CDE971 /* Debug */,
+				800079CEA38D02294D40AA57284A02B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B392C368403B6344C94A3CB2A5C8559F /* Build configuration list for PBXNativeTarget "MRJUIColorAdditions" */ = {
+		970A8D777A6929CABCD7E078BBF62D34 /* Build configuration list for PBXNativeTarget "UIViewMRJFrame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				45DFD4D2CDED0445D200B8EFD9B1A339 /* Debug */,
-				19E6DC89628FE4550E0919317A4EF14F /* Release */,
+				F494A44A72AC06CB2C008F6EC3287168 /* Debug */,
+				49B0E36B2D31454065C7F96035775AEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC033F5C3938ACD621A429DB5BD5D132 /* Build configuration list for PBXNativeTarget "Pods-MRJRemarkTextView_Example" */ = {
+		DD6C4E7737B3FF6F3F61822D8CCB9137 /* Build configuration list for PBXNativeTarget "MRJRemarkTextView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81DF5C100F712F5CBE68F18217D4B91F /* Debug */,
-				6A27E25E3C811E9A56568DFD8E7C9443 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DECFF7E0E04C3A5C57E08656A5E60CFB /* Build configuration list for PBXNativeTarget "MRJRemarkTextView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AD71BD63607F6F456B2991D64C54A49D /* Debug */,
-				FED60AD7FD5303CFE0B32FBFAF2EF3BA /* Release */,
+				1FCAEB4B9268976F29474F06F3AB0B4D /* Debug */,
+				068756D0E7E648802F85407C61F62F3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

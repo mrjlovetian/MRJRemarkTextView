@@ -7,6 +7,7 @@
 //
 
 #import "MRJViewController.h"
+#import "MRJRemarkTextView.h"
 
 @interface MRJViewController ()
 
@@ -14,16 +15,19 @@
 
 @implementation MRJViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad{
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    self.view.backgroundColor = [UIColor grayColor];
+	
+    MRJRemarkTextView *remarkTextView = [[MRJRemarkTextView alloc] initWithFrame:CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, 100)];
+    remarkTextView.limitTextColor = [UIColor purpleColor];
+    remarkTextView.limitForegroundColor = [UIColor orangeColor];
+    remarkTextView.limitBackColor = [UIColor blueColor];
+    remarkTextView.placeholder = @"请输入备注内容";
+    remarkTextView.textLimitNum = 100;
+    remarkTextView.rowMaxCount = 100;
+    [self.view addSubview:remarkTextView];
+    
 }
 
 @end

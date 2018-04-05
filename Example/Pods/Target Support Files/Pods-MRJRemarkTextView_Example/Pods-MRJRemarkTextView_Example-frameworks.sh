@@ -103,12 +103,10 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/MRJRemarkTextView/MRJRemarkTextView.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/MRJUIColorAdditions/MRJUIColorAdditions.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/UIViewMRJFrame/UIViewMRJFrame.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/MRJRemarkTextView/MRJRemarkTextView.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/MRJUIColorAdditions/MRJUIColorAdditions.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/UIViewMRJFrame/UIViewMRJFrame.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

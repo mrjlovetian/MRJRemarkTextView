@@ -27,6 +27,10 @@
 @property (nonatomic, assign) NSUInteger textLimitNum;
 @property (nonatomic, assign) NSUInteger rowMaxCount;
 
+@property (nonatomic, strong) UIColor *limitTextColor;
+@property (nonatomic, strong) UIColor *limitForegroundColor;
+@property (nonatomic, strong) UIColor *limitBackColor;
+
 - (void)setText:(NSString *)text;
 
 @end

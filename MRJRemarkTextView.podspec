@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MRJRemarkTextView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '备注框封装.'
 
 # This description is used to generate tags and improve search results.
@@ -40,5 +40,5 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
     s.dependency 'UIViewMRJFrame'
-    s.dependency 'MRJUIColorAdditions'
+  # s.dependency 'MRJUIColorAdditions'
 end

@@ -1,8 +1,6 @@
 PODS:
-  - MRJRemarkTextView (0.1.0):
-    - MRJUIColorAdditions
+  - MRJRemarkTextView (0.1.1):
     - UIViewMRJFrame
-  - MRJUIColorAdditions (0.1.0)
   - UIViewMRJFrame (0.1.1)
 
 DEPENDENCIES:
@@ -13,8 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MRJRemarkTextView: 642fb42e1a0273517f71c22061abfd79bf4e9d62
-  MRJUIColorAdditions: a72dd04fb5d358f81fbd7eae8fc9da76b6f03590
+  MRJRemarkTextView: 12440d0a2911bce6dbea5d22178aaba93eb21838
   UIViewMRJFrame: f6dd02664727ae342948b9a04e9e821b62b03e43
 
 PODFILE CHECKSUM: 60bfff8204f7a82201d38f270b20cdd33bd0b0e7
