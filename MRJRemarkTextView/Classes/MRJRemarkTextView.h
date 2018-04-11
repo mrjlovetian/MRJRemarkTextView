@@ -9,10 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @class MRJRemarkTextView;
+
 @protocol RemarkTextViewDelegate <NSObject>
 
 @optional
-
 - (void)didRemarkTextViewChange:(NSString *)textString RemarkTextView:(MRJRemarkTextView *)view;
 - (void)beginEditTextMemo;
 - (void)endEditTextMemo;
@@ -22,7 +22,7 @@
 
 @interface MRJRemarkTextView : UITextView <UITextViewDelegate>
 
-@property (nonatomic, weak) id <RemarkTextViewDelegate>delegate;
+@property (nonatomic, weak) id <RemarkTextViewDelegate> mdelegate;
 @property (nonatomic, strong) NSString * placeholder;
 @property (nonatomic, assign) NSUInteger textLimitNum;
 @property (nonatomic, assign) NSUInteger rowMaxCount;

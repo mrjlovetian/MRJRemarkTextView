@@ -48,18 +48,14 @@
 #pragma mark - UITextViewDelegate
 
 - (void)textViewDidBeginEditing:(UITextView *)textView {
-    if (self.delegate) {
-        if ([self.delegate respondsToSelector:@selector(beginEditTextMemo)]) {
-            [self.delegate beginEditTextMemo];
-        }
+    if (self.mdelegate && [self.mdelegate respondsToSelector:@selector(beginEditTextMemo)]) {
+        [self.mdelegate beginEditTextMemo];
     }
 }
 
 - (void)textViewDidEndEditing:(UITextView *)textView {
-    if (self.delegate) {
-        if ([self.delegate respondsToSelector:@selector(endEditTextMemo)]) {
-            [self.delegate endEditTextMemo];
-        }
+    if (self.mdelegate && [self.mdelegate respondsToSelector:@selector(endEditTextMemo)]) {
+        [self.mdelegate endEditTextMemo];
     }
 }
 
@@ -88,8 +84,8 @@
     }
     
     if(self.textLimitNum == 0){
-        if (self.delegate && [self.delegate respondsToSelector:@selector(didRemarkTextViewChange:RemarkTextView:)]) {
-            [self.delegate didRemarkTextViewChange:textView.text RemarkTextView:self];
+        if (self.mdelegate && [self.mdelegate respondsToSelector:@selector(didRemarkTextViewChange:RemarkTextView:)]) {
+            [self.mdelegate didRemarkTextViewChange:textView.text RemarkTextView:self];
         }
         return;
     }
@@ -98,8 +94,8 @@
     
     [self reloadTextLimit];
     
-    if (self.delegate && [self.delegate respondsToSelector:@selector(didRemarkTextViewChange:RemarkTextView:)]) {
-        [self.delegate didRemarkTextViewChange:textView.text RemarkTextView:self];
+    if (self.mdelegate && [self.mdelegate respondsToSelector:@selector(didRemarkTextViewChange:RemarkTextView:)]) {
+        [self.mdelegate didRemarkTextViewChange:textView.text RemarkTextView:self];
     }
     
 }
@@ -136,8 +132,8 @@
     if ([self textLength:new] >= self.textLimitNum) {
         [self textViewLimit:new];
         [self reloadTextLimit];
-        if (self.delegate && [self.delegate respondsToSelector:@selector(didRemarkTextViewChange:RemarkTextView:)]) {
-            [self.delegate didRemarkTextViewChange:textView.text RemarkTextView:self];
+        if (self.mdelegate && [self.mdelegate respondsToSelector:@selector(didRemarkTextViewChange:RemarkTextView:)]) {
+            [self.mdelegate didRemarkTextViewChange:textView.text RemarkTextView:self];
         }
         return NO;
     }
@@ -148,8 +144,8 @@
         NSString *str = [NSString stringWithFormat:@"%@%@",self.text , text];
         [self textViewLimit:str];
         [self reloadTextLimit];
-        if (self.delegate && [self.delegate respondsToSelector:@selector(didRemarkTextViewChange:RemarkTextView:)]) {
-            [self.delegate didRemarkTextViewChange:textView.text RemarkTextView:self];
+        if (self.mdelegate && [self.mdelegate respondsToSelector:@selector(didRemarkTextViewChange:RemarkTextView:)]) {
+            [self.mdelegate didRemarkTextViewChange:textView.text RemarkTextView:self];
         }
         return NO;
     }
