@@ -40,10 +40,9 @@
     [self addSubview:placeHolderLabel];
 }
 
-- (void) hidenBordy {
+- (void)hidenBordy {
     [self resignFirstResponder];
 }
-
 
 #pragma mark - UITextViewDelegate
 
@@ -97,7 +96,6 @@
     if (self.mdelegate && [self.mdelegate respondsToSelector:@selector(didRemarkTextViewChange:RemarkTextView:)]) {
         [self.mdelegate didRemarkTextViewChange:textView.text RemarkTextView:self];
     }
-    
 }
 
 - (void)textViewLimit:(NSString *)text {
@@ -164,8 +162,8 @@
     numberLabel.top = height - 22;
     [self scrollRectToVisible:numberLabel.frame animated:NO];
     numberLabel.attributedText = [self getTextLimitString:self.textLimitNum];
-    numberLabel.hidden = NO;}
-
+    numberLabel.hidden = NO;
+}
 
 - (void)setText:(NSString *)text {
     [super setText:text];
