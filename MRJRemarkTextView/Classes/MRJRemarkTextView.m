@@ -90,7 +90,6 @@
     }
     
     [self textViewLimit:textView.text];
-    
     [self reloadTextLimit];
     
     if (self.mdelegate && [self.mdelegate respondsToSelector:@selector(didRemarkTextViewChange:RemarkTextView:)]) {
@@ -110,22 +109,24 @@
     if ([text isEqualToString:@""]) {
         return YES;
     }
+    
     if ([text isEqualToString:@"\n"]) {
         if (self.rowMaxCount <= 1) {
             [self endEditing:NO];
             return NO;
         }
 
-         NSArray *array = [self.text componentsSeparatedByString:@"\n"];
+        NSArray *array = [self.text componentsSeparatedByString:@"\n"];
         if (array.count >= self.rowMaxCount){
             return NO;
         }
-        
         return YES;
     }
+    
     if (self.textLimitNum == 0) {
         return YES;
     }
+    
     NSString *new = [self.text stringByReplacingCharactersInRange:range withString:text];
     if ([self textLength:new] >= self.textLimitNum) {
         [self textViewLimit:new];
@@ -136,6 +137,7 @@
         return NO;
     }
     NSInteger res = self.textLimitNum - [self textLength:new];
+    
     if(res >= 0){
         return YES;
     } else {
