@@ -13,6 +13,7 @@
 @protocol RemarkTextViewDelegate <NSObject>
 
 @optional
+
 - (void)didRemarkTextViewChange:(NSString *)textString RemarkTextView:(MRJRemarkTextView *)view;
 - (void)beginEditTextMemo;
 - (void)endEditTextMemo;

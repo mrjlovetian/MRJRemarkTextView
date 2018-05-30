@@ -75,7 +75,7 @@
     }
     
     UITextRange *selectedRange = [textView markedTextRange];
-    //获取高亮部分
+    // 获取高亮部分
     UITextPosition *position = [textView positionFromPosition:selectedRange.start offset:0];
     // 有高亮选择的字符串，则暂不对文字进行统计和限制
     if (position) {
@@ -169,7 +169,6 @@
 
 - (void)setText:(NSString *)text {
     [super setText:text];
-    
     UILabel *label = (UILabel *)[self viewWithTag:102];
     if (self.text.length == 0) {
         label.hidden = NO;
